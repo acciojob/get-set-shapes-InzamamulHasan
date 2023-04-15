@@ -1,11 +1,11 @@
 //complete this code
 class Rectangle {
 	constructor(width,height){
-		this.width=eval(width);
-		this.height=eval(height);
+		this.width=(width);
+		this.height=(height);
 	}
 	getArea(){
-		return this.width*this.height;
+		return eval(this.width*this.height);
 	}
 }
 
@@ -14,7 +14,7 @@ class Square extends Rectangle {
 		super(width,height);
 	}
 	getPerimeter(){
-		return 2*(this.width+this.height);
+		return eval(2*(this.width+this.height));
 	}
 }
 
