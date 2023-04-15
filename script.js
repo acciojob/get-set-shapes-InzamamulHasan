@@ -1,7 +1,7 @@
 //complete this code
 class Rectangle {
 	constructor(width,height){
-		this.width=eaval(width);
+		this.width=eval(width);
 		this.height=eval(height);
 	}
 	getArea(){
