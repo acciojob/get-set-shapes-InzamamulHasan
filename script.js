@@ -1,8 +1,8 @@
 //complete this code
 class Rectangle {
 	constructor(width,height){
-		this.width=width;
-		this.height=height;
+		this.width=eaval(width);
+		this.height=eval(height);
 	}
 	getArea(){
 		return this.width*this.height;
